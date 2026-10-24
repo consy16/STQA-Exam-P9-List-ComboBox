@@ -37,19 +37,19 @@ public class ListComboBoxTest {
 
             driver.get("file://" + pagePath);
 
-            WebElement comboBox =
-                driver.findElement(By.id("comboBox"));
+            // TASK 1: Find the combo box using its ID "comboBox".
+            // Write your code below.
 
-            Select select = new Select(comboBox);
-
-            select.selectByVisibleText("Selenium");
-
+            // TASK 2: Select the option "Selenium" from the combo box.
+            // Write your code below.
+            
             System.out.println("=================================");
             System.out.println("LIST / COMBOBOX PRACTICAL");
             System.out.println("=================================");
-            System.out.println("ComboBox found successfully.");
-            System.out.println("Option selected: Selenium");
-            System.out.println("Test completed successfully.");
+            
+            System.out.println("Complete TASK 1 and TASK 2.");
+            System.out.println("Run the test after completing both tasks.");
+
             System.out.println("=================================");
 
         } finally {
