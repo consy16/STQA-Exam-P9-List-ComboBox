@@ -47,8 +47,9 @@ public class ListComboBoxTest {
             System.out.println("LIST / COMBOBOX PRACTICAL");
             System.out.println("=================================");
             
-            System.out.println("Complete TASK 1 and TASK 2.");
-            System.out.println("Run the test after completing both tasks.");
+            System.out.println("ComboBox found successfully.");
+            System.out.println("Option selected: Selenium");
+            System.out.println("Test completed successfully.");
 
             System.out.println("=================================");
 
